@@ -1,0 +1,127 @@
+@media only screen and (max-device-width: 768px){
+    .nav-container{
+        position:relative;
+        left:100px;
+    }
+
+    .nav-menu{
+        display:grid;
+        grid-template-columns:auto;
+        background:#0F1145;
+        font-size:15px;
+        position:absolute;
+        top:125px;
+        width:98%;
+        right:1px;
+        line-height:40px;
+    }
+
+    .logo{
+        position:relative;
+    }
+
+    #mobile-menu{
+        position:absolute;
+        top:30px;
+        left:100px;
+    }
+
+    .menu-toggle .bar{
+        display:block;
+        cursor:pointer;
+    }
+
+    .home-container{
+        position:relative;
+        top:150px;
+        left:100px;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .home{
+        font-size:25px !important;
+        position:relative;
+        left:270px;
+    }
+
+    .cont{
+        width:98%;
+        font-size:15px;
+        position:relative;
+        left:270px;
+    }
+
+    .home-img{
+        width:100%;
+        height:auto;
+        position:relative;
+        top:300px;
+    }
+    .home-container2{
+        position:relative;
+        top:200px;
+        left:100px;
+    }
+
+    .home2{
+        font-size:25px;
+    }
+
+    .home3{
+        font-size:20px;
+    }
+
+    .criteria{
+        display:grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 200px 200px 200px;
+        gap:20px 150px;
+        line-height:10px;
+        position:relative;
+        top:100px;
+        justify-content:center;
+    }
+    .vector-img{
+        position:relative;
+        top:400px;
+        left:100px;
+    }
+
+    .rain-s{
+        position: relative;
+        bottom:100px;
+    }
+
+    .welcome{
+        font-size:90px;
+        -webkit-text-stroke: 2px #A56E6E;
+
+    }
+    .heading{
+        position: relative;
+        left:100px;
+    }
+    .horizontal{
+        position: relative;
+        top:190px;
+    }
+    .welcome-container{
+        position: relative;
+        top:50px;
+        left:100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .gallery{
+        display:grid;
+        grid-template-columns:400px;
+        grid-template-rows:repeat(6, 300px);
+        left:325px;
+    }
+    .gallery img{
+        width:400px;
+        height:300px;
+    }
+}
